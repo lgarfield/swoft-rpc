@@ -1,0 +1,15 @@
+{
+  "name": "garfield/swoft-rpc",
+  "description": "rpc interface files.",
+  "type": "library",
+  "authors": [
+    {
+      "name": "garfield",
+      "email": "li.nextcit@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.2.0"
+  }
+}
