@@ -13,7 +13,7 @@ use Swoft\Core\ResultInterface;
  * The interface of user service.
  *
  */
-class LoginInterface
+interface LoginInterface
 {
     /**
      * just login in
@@ -22,7 +22,7 @@ class LoginInterface
      * @param array $extraInfo
      * [
      *    'platform' => 1,
-     *    'device' => 2,
+     *    'project' => 20,
      *    'ip' => '12.34.56.78'
      * ]
      *
