@@ -6,7 +6,7 @@
  * @email garfiel.li@foxmail.com
  */
 
-namespace RpcSwoft\Party\PartyMember;
+namespace RpcSwoft\Party\Member;
 
 use Swoft\Core\ResultInterface;
 
