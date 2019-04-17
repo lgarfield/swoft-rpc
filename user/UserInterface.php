@@ -6,7 +6,7 @@
  * @contact garfield.li@foxmail.com
  */
 
-namespace SwoftRpc\User;
+namespace RpcSwoft\User;
 
 use Swoft\Core\ResultInterface;
 

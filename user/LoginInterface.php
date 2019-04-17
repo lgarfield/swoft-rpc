@@ -5,7 +5,7 @@
  * @author garfield.li
  * @time 2019/04/16 11:16pm
  */
-namespace SwoftRpc\User;
+namespace RpcSwoft\User;
 
 use Swoft\Core\ResultInterface;
 
