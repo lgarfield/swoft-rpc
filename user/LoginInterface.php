@@ -38,7 +38,7 @@ class LoginInterface
      * @param array $extraInfo
      * [
      *    'platform' => 1,
-     *    'device' => 2,
+     *    'project' => 10,
      *    'ip' => '12.34.56.78'
      * ]
      *
