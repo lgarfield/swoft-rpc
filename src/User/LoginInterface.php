@@ -18,6 +18,22 @@ interface LoginInterface
     /**
      * just login in
      *
+     * @param string $account
+     * @param string $passwd
+     * @param array $extraInfo
+     * [
+     *    'platform' => 1,
+     *    'project' => 20,
+     *    'ip' => '12.34.56.78'
+     * ]
+     *
+     * @return array
+     */
+    public function login(string $account, string $passwd, array $extraInfo): array;
+
+    /**
+     * just login in
+     *
      * @param string $mobile
      * @param array $extraInfo
      * [
@@ -28,7 +44,7 @@ interface LoginInterface
      *
      * @return array
      */
-    public function login(string $mobile, array $extraInfo): array;
+    public function loginMobile(string $mobile, array $extraInfo): array;
 
     /**
      * login with third token
