@@ -1,34 +1,42 @@
 <?php
 /**
- * user interface
+ * This file is part of Swoft.
  *
- * @author garfield.li
- * @time 2019/04/16 11:16pm
+ * @link https://api.party.org
+ * @contact garfield.li@foxmail.com
  */
+
 namespace SwoftRpc\User;
 
 use Swoft\Core\ResultInterface;
 
 /**
- * The interface of user service.
+ * The interface of user service
  *
- * @method ResultInterface login(string $mobile)
- * @method ResultInterface loginThird(string $token)
- *
+ * @method ResultInterface deferGetBaseInfo(string $account)
  */
-class UserInterface
+interface UserInterface
 {
+    /**
+     * @param string $account
+     *
+     * @return array
+     */
+    public function getBaseInfo(string $account): array;
+
+    /**
+     * @param string $account
+     * @param string $mobile
+     *
+     * @return array
+     */
+    public function editMobile(string $account, string $mobile): array;
+
     /**
      * @param string $mobile
      *
      * @return array
      */
-    public function login(string $mobile): array;
+    public function add(string $mobile): array;
 
-    /**
-     * @param string $token
-     *
-     * @return array
-     */
-    public function loginThird(string $token): array;
 }
