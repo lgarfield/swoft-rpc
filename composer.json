@@ -14,7 +14,7 @@
       "email": "garfield.li@foxmail.com"
     }
   ],
-  "minimum-stability": "0.0.2",
+  "minimum-stability": "dev",
   "require": {
     "php": ">=7.2.0",
     "swoft/framework": "^1.0"
