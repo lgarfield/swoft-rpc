@@ -16,5 +16,12 @@ use Swoft\Core\ResultInterface;
  */
 interface MemberInterface
 {
-
+    /**
+     * 获取党员信息
+     * User: lazy
+     * Date: 2019-05-05 15:26
+     * @param int $id
+     * @return array
+     */
+    public function getUserInfo(int $id): array;
 }
