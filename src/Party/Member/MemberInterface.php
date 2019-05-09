@@ -21,7 +21,8 @@ interface MemberInterface
      * User: lazy
      * Date: 2019-05-05 15:26
      * @param int $id
+     * @param array $field
      * @return string
      */
-    public function getUserInfo(int $id): string;
+    public function getUserInfo(int $id, array $field): string;
 }
