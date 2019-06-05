@@ -21,7 +21,6 @@
   },
   "minimum-stability": "dev",
   "require": {
-    "php": ">=7.2",
-    "swoft/framework": "^2.0"
+    "php": ">=7.2"
   }
 }
