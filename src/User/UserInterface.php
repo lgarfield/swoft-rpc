@@ -39,4 +39,21 @@ interface UserInterface
      */
     public function add(string $mobile): array;
 
+    /**
+     * @param string $account
+     *
+     * @return array
+     */
+    public function resetPasswd(string $account): array;
+
+    /**
+     * change password
+     *
+     * @param string $account
+     * @param string $oldPass
+     * @param string $newPass
+     *
+     * @return array
+     */
+    public function changePasswd(string $account, string $oldPass, string $newPass): array;
 }
