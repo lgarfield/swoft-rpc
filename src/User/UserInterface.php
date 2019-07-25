@@ -40,6 +40,13 @@ interface UserInterface
     public function add(string $mobile): array;
 
     /**
+     * @param array $mobiles
+     *
+     * @return array
+     */
+    public function batchAdd(array $mobiles): array;
+
+    /**
      * @param string $account
      *
      * @return array
